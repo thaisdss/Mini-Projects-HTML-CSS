@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*
+
+Paleta de Cores:
+Verde - #49a09d;
+Lilás - #5f2c82;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    background-color: #5f2c82;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 90vh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#login div#imagem{
+    background: #5f2c82 url(../imagens/pexels-scott-webb-305816.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login div#formulario{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+form div.campo{
+    background-color: #5f2c82;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form div.campo .material-icons{
+    color: white;
+    padding-left: 5px;
+}
+
+form div.campo > input{
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+    border: 3px solid #5f2c82;
+    border-radius: 8px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1em;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: #2d6462;
+}
+
+form a{
+    font-size: 1em;
+    color: #49a09d;
+}
