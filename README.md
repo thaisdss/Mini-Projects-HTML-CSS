@@ -32,4 +32,8 @@ Android é um projeto criado no capítulo 17 do curso de HTML5 e CSS3 do [Cursoe
 
 Ele simula um blog com o artigo sobre a história do Android.
 
+## Sidebar
+Sidebar é um projeto criado com o objetivo de demonstrar um exemplo de sidebar para um site.
+
+
 
