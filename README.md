@@ -35,5 +35,8 @@ Ele simula um blog com o artigo sobre a história do Android.
 ## Sidebar
 Sidebar é um projeto criado com o objetivo de demonstrar um exemplo de sidebar para um site.
 
+##Pricing-Table
+Pricing Table é um projeto com o objetivo de construir uma página com as opções de preços/planos de produto/serviço.
+
 
 

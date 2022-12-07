@@ -1,0 +1,244 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-background);
+    overflow-x: hidden;
+}
+
+body > header{
+    background-color: var(--blue);
+    height: 380px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    color: #ffffff;
+}
+
+body > header h1{
+    margin-top: 60px;
+    font-size: 3em;
+}
+
+body > header p{
+    font-size: 1.08em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: absolute;
+    top: 160px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.plans{
+    width: 355px;
+    height: 470px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(142, 150, 185, 0.25);
+
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.plans > header{
+    padding: 30px 30px 0px 30px;
+}
+
+.plans .plan{
+    padding: 20px 30px 30px 30px;
+}
+
+.plans .price strong:first-of-type{
+    font-size: 30px;
+}
+
+.plans .price strong:last-of-type{
+    font-size: 18px;
+}
+
+.plans .price span{
+    color: var(--gray);
+    margin-left: 5px;
+}
+
+.plans p{
+    margin-top: 10px;
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.plans hr{
+    margin: 20px 0;
+    border-color: rgba(238, 238, 238, 0.243);
+}
+
+.plans ul{
+    list-style-image: url(assets/check.svg);
+    list-style-position: inside;
+}
+
+.plans ul li{
+    padding-left: 10px;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.plans ul li + li{
+    margin-top: 20px;
+}
+
+.plans .div-button{
+    margin: 0 30px 30px 30px;
+
+    flex: 1;
+
+    display: flex;
+}
+
+.plans .div-button button{
+    align-self: flex-end;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 24px;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+
+    background-color: transparent;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--blue);
+}
+
+.basico{
+    height: 490px;
+}
+
+.basico > header{
+    width: 100%;
+    height: 76px;
+    padding: 30px;
+
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+
+    background-color: var(--yellow);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.basico > header h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--blue);
+}
+
+.basico > header div{
+    background-color: var(--blue);
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+
+    border-radius: 40px;
+    width: 94px;
+    height: 32px;
+    padding: 8px 24px;
+}
+
+.basico .price{
+    margin-top: 10px;
+}
+
+.basico .div-button button{
+    background-color: var(--blue);
+    color: #ffffff;
+}
+
+@media(max-width: 1182px){
+
+    body{
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    body > header{
+        padding: 30px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    body > header h1{
+        margin-top: 0px;
+        font-size: 2em;
+    }
+
+    body > header p{
+        font-size: 1em;
+    }
+
+    .container{
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 438px){
+    body > header h1{
+        font-size: 1.75em;
+    }
+
+    body > header p{
+        font-size: 0.90em;
+    }
+
+    .plans{
+        width: 290px;
+    }
+}
+
+
