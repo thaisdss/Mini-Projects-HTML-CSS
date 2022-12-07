@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+body{
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+body > img{
+    width: 620px;
+    height: 100%;
+}
+
+body > header{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.container{
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm{
+    background-color: var(--form-background);
+
+    width: 572px;
+    height: 512px;
+    border-radius: 4px;
+
+    padding: 54px 100px;
+}
+
+.containerForm > div{
+    width: 100%;
+}
+
+.containerForm > header > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.containerForm > header span{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-title);
+}
+
+.containerForm > header > p{
+    font-weight: 500;
+    color: var(--text-base);
+}
+
+.containerForm form{
+    margin-top: 27px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerForm form input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-base);
+    padding-left: 38px;
+}
+
+.containerForm form .email input, form .password input{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+
+    background-color: transparent;
+}
+
+.containerForm form .email label, .password label{
+    font-weight: 500;
+    color: var(--text-base);
+}
+
+.email input{
+    background: url(images/mail.svg) no-repeat 12px center;
+}
+
+.email input:focus{
+    background: url(images/mail-focus.svg) no-repeat 12px center;
+}
+
+.password input{
+    background: url(images/lock.svg) no-repeat 12px center, url(images/eye.svg) no-repeat 95% center;
+}
+
+.password input:focus{
+    background: url(images/lock-focus.svg) no-repeat 12px center, url(images/eye.svg) no-repeat 95% center;
+}
+
+.email input:focus, .password input:focus{
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 0px 2px var(--primary-color);
+}
+
+.remember-lost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-lost label{
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    color: var(--text-base);
+}
+
+.remember-lost label input{
+    opacity: 0;
+    width: 0;
+}
+
+.remember-lost label span{
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #868686;
+    border-radius: 4px;
+
+    background: var(--form-background);
+
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.remember-lost label input:checked ~ span{
+    background: var(--primary-color) url(images/check.svg);
+}
+
+.log-in-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in-register button{
+    align-self: center;
+    background-color: var(--primary-color);
+
+    width: 300px;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #473404;
+    font-weight: 600;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.log-in-register p{
+    margin-top: 14px;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 14px;
+}

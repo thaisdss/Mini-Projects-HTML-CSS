@@ -25,7 +25,9 @@ Cordel Moderno é um projeto criado no Módulo 3 do curso de HTML5 e CSS3 do [Cu
 Ele foi construído para apresentar o poema Cordel Moderno de [Milton Duarte](https://www.recantodasletras.com.br/poesias/3186743) dentro de uma página e dessa forma testar os conhecimentos aprendidos no curso até o momento.
 
 ## Login
-Login é um projeto criado no módulo 4 do curso de HTML5 e CSS3 do [CursoemVideo](https://www.cursoemvideo.com) com o intuito de fazer uma tela de login.
+Login possui dois projetos que são um formulário de login. 
+
+O primeiro foi criado é no módulo 4 do curso de HTML5 e CSS3 do [CursoemVideo](https://www.cursoemvideo.com) e o segundo foi um desafio proposto pela [Rocketseat](https://rocketseat.com.br).
 
 ## Projeto Android
 Android é um projeto criado no capítulo 17 do curso de HTML5 e CSS3 do [CursoemVídeo](https://www.cursoemvideo.com). 
@@ -35,7 +37,7 @@ Ele simula um blog com o artigo sobre a história do Android.
 ## Sidebar
 Sidebar é um projeto criado com o objetivo de demonstrar um exemplo de sidebar para um site.
 
-##Pricing-Table
+## Pricing-Table
 Pricing Table é um projeto com o objetivo de construir uma página com as opções de preços/planos de produto/serviço.
 
 
