@@ -50,5 +50,11 @@ RocketBlog é um projeto com o objetivo de contruir a página Home de um blog.
 
 Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
 
+## RocketShoes
+RocketShoes é um projeto com o objetivo de desenvolver uma página de um mini e-commerce de calçados esportivos.
+
+Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
+
+
 
 
