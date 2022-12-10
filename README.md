@@ -55,6 +55,12 @@ RocketShoes é um projeto com o objetivo de desenvolver uma página de um mini e
 
 Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
 
+## RocketCoffe
+
+RocketShoes é um projeto com o objetivo de desenvolver uma homepage para uma marca de café.
+
+Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
+
 
 
 
