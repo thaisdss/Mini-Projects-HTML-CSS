@@ -1,0 +1,61 @@
+.menu-open > header{
+    height: 100%;
+    background-color: #000;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.menu-open header nav{
+    display: block;
+    width: 100%;
+}
+
+.menu-open header nav ul{
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-open header nav ul{
+    align-items: flex-start;
+    gap: 0;
+}
+
+.menu-open header nav ul li{
+    width: 100%;
+    border-bottom: 1px solid #29292E;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-open header nav ul li:first-of-type{
+    border-top: 1px solid #29292E;
+}
+
+.menu-open header nav ul li:first-of-type::before{
+    content: "i";
+    display: block;
+    background-color: #8257E6;
+    color: #8257E6;
+    width: 5px;
+    height: 45px;
+}
+
+.menu-open header nav ul li a{
+    padding: 10px 30px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #A8A8B3;
+}
+
+.menu-open header p, .menu-open header > button{
+    display: none;
+}
+
+.menu-open main{
+    display: none;
+}

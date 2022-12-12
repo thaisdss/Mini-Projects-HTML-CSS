@@ -17,12 +17,12 @@
     font-family: 'Manrope', sans-serif;
 }
 
-body{
+html, body{
     width: 100vw;
     height: 100vh;
     max-width: 100%;
 
-    background: url(assets/blur-1.png) no-repeat left bottom, url(assets/blur-2.png) no-repeat right top;
+    background: url(../assets/blur-1.png) no-repeat left bottom, url(../assets/blur-2.png) no-repeat right top;
     background-color: var(--backgrond);
     background-attachment: fixed;
 
@@ -114,8 +114,5 @@ main section h1:last-of-type img{
 }
 
 main > img{
-    height: 370px;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
+    max-height: 352px;
 }
