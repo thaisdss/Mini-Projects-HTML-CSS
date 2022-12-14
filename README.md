@@ -27,7 +27,9 @@ Ele foi construído para apresentar o poema Cordel Moderno de [Milton Duarte](ht
 ## Login
 Login possui dois projetos que são um formulário de login. 
 
-O primeiro foi criado é no módulo 4 do curso de HTML5 e CSS3 do [CursoemVideo](https://www.cursoemvideo.com) e o segundo foi um desafio da trilha Discover da [Rocketseat](https://rocketseat.com.br).
+O primeiro foi criado no módulo 4 do curso de HTML5 e CSS3 do [CursoemVideo](https://www.cursoemvideo.com)
+
+O segundo foi um desafio da trilha Discover da [Rocketseat](https://rocketseat.com.br).
 
 ## Projeto Android
 Android é um projeto criado no capítulo 17 do curso de HTML5 e CSS3 do [CursoemVídeo](https://www.cursoemvideo.com). 
