@@ -1,0 +1,465 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    max-width: 100%;
+
+    background-color: var(--body-background);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--text-color);
+}
+
+h1 span{
+    color: var(--color-logo);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    width: 100%;
+
+    background: url(../assets/background.png);
+
+    padding: 47px 82px 0px 82px;
+}
+
+.header-section-01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section-01 > img{
+    width: 265px;
+    height: 43px;
+}
+
+.header-section-01 nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-section-01 nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.header-section-01 button{
+    width: 230px;
+    height: 50px;
+    background-color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-section-02{
+    color: var(--text-color);
+    font-size: 18px;
+    margin-top: 70px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-section-02 > div p{
+    width: 401px;
+}
+
+.header-section-02 div > div{
+    margin-top: 45px;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.header-section-03{
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.header-section-03 img{
+    width: 267px;
+    height: 197.98px;
+    border: 1px solid #fff;
+}
+
+main{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section-01{
+    display: flex;
+    gap: 67px;
+    align-items: center;
+
+    border-bottom: 1px solid #5A5757;
+    width: 100%;
+}
+
+.main-section-01 .performance{
+    margin-left: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.main-section-01 .performance div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section-01 .performance div h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--text-color);
+}
+
+.main-section-01 .performance div p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--subtitle-color);
+}
+
+.main-section-01 .performance-description{
+    border-left: 1px solid #5A5757;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-01 .performance-description > div{
+    display: flex;
+    gap: 100px;
+
+    padding: 70px 0px 70px 50px;
+}
+
+.main-section-01 .performance-description div p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-color);
+
+    width: 435px;
+    margin-bottom: 63px;
+}
+
+.main-section-01 .performance-description div a{
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.main-section-01 .performance-description img{
+    width: 100%;
+    flex: 1;
+}
+
+.main-section-02{
+    margin: 150px 0px;
+}
+
+.main-section-02 h1{
+    margin-bottom: 150px;
+}
+
+.main-section-02 .astronautas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section-02 .astronautas > div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-section-02 .astronautas > div:first-of-type{
+    padding-right: 150px;
+    border-right: 1px solid #5A5757;
+}
+
+.main-section-02 .astronautas > div:last-of-type{
+    padding-left: 150px;
+}
+
+.main-section-02 .astronautas .astronauta-profile{
+    width: 376.9px;
+    height: 337px;
+}
+
+.main-section-02 .astronautas .astronauta-profile > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section-02 .astronautas .astronauta-profile .astronauta-info{
+    margin: 44px 0px 26px 0px;
+}
+
+.main-section-02 .astronautas .astronauta-profile h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: var(--text-color);
+}
+
+.main-section-02 .astronautas .astronauta-profile p{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--subtitle-color);
+}
+
+.main-section-02 .astronautas .astronauta-profile span{
+    font-size: 20px;
+    color: var(--color-logo);
+}
+
+.main-section-02 .astronautas .astronauta-profile > img{
+    width: 350px;
+    height: 200px;
+}
+
+.main-section-03{
+    margin-bottom: 147px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section-03 .artistas{
+    margin: 120px 0px 54px 0px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 91px;
+}
+
+.main-section-03 .artistas .artista-profile{
+    width: 350px;
+    height: 150px;
+    background-color: var(--card-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-section-03 .artistas .artista-profile h4{
+    color: var(--text-color);
+
+    margin-bottom: 10px;
+}
+
+.main-section-03 .artistas .artista-profile p{
+    color: var(--color-logo);
+}
+
+.main-section-03 .artistas .artista-profile:nth-of-type(2){
+    background-color: var(--color-logo);
+}
+
+.main-section-03 .artistas .artista-profile:nth-of-type(2) p{
+    color: var(--text-color);
+}
+
+.main-section-03 a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+footer{
+    width: 100%;
+    height: 609px;
+    background-color: var(--card-color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer section{
+    padding: 0px 84px;
+}
+
+.footer-section-01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 200px;
+    border-bottom: 1px solid #5A5757;
+}
+
+.footer-section-01 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-logo);
+    width: 80px;
+    height: 80px;
+}
+
+.footer-section-02{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #5A5757;
+
+    flex: 1;
+}
+
+.footer-section-02 > div{
+    padding: 62px 62px 0px 0px;
+    border-right: 1px solid #5A5757;
+
+    height: 100%;
+}
+
+.footer-section-02 > div h2{
+    width: 350px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: var(--text-color);
+
+    margin-bottom: 25px;
+}
+
+.footer-section-02 > div h2 span{
+    color: var(--color-logo);
+}
+
+.footer-section-02 > div > div{
+    display: flex;
+}
+
+.footer-section-02 > div > div input{
+    width: 280px;
+    height: 66px;
+    background-color: var(--color-input);
+    border: none;
+    padding-left: 20px;
+}
+
+.footer-section-02 > div > div input::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--subtitle-color);
+}
+.footer-section-02 > div > div button{
+    width: 122px;
+    height: 66px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+
+.footer-section-02 nav{
+    padding-left: 122px;
+
+    display: flex;
+    gap: 108px;
+}
+
+.footer-section-02 nav h4{
+    font-size: 20px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.footer-section-02 nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-section-02 nav ul li a{
+    font-size: 20px;
+    color: var(--subtitle-color);
+    text-decoration: none;
+}
+
+.footer-section-03{
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section-03 > a{
+    font-size: 20px;
+    color: var(--subtitle-color);
+    text-decoration: none;
+}
+
+.footer-section-03 ul{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}

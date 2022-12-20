@@ -63,6 +63,12 @@ RocketShoes é um projeto com o objetivo de desenvolver uma homepage para uma ma
 
 Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
 
+## RocketNFTs
+
+Rocket NFTs é um projeto com o objetivo de desenvolver uma landing page completa sobre NFTs.
+
+Esse projeto é um dos desafios da trilha Discover da [Rocketseat](https://rocketseat.com.br).
+
 
 
 
